@@ -105,7 +105,9 @@ void matrix_scan_user(void) {
 
 void keyboard_post_init_user(void)
 {
-    annepro2LedDisable();
+    annepro2LedEnable();
+    annepro2LedNextAnimationSpeed();
+    annepro2LedSetProfile(6);
 }
 
 

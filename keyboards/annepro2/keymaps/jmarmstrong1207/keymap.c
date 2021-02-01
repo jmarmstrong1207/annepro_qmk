@@ -9,15 +9,11 @@ enum anne_pro_layers {
   _FN2_LAYER,
 };
 
-<<<<<<< HEAD:keyboards/annepro2/keymaps/jmarmstrong1207/keymap.c
 // SHORTCUTS
 #define QUIT LALT(KC_F4)
 #define TASK LCTL(LSFT(KC_ESC))
 
-
-=======
 // Key symbols are based on QMK. Use them to remap your keyboard
->>>>>>> upstream/keyboard-annepro2:keyboards/annepro2/keymaps/default-full-caps/keymap.c
 /*
 * Layer _BASE_LAYER
 * ,-----------------------------------------------------------------------------------------.

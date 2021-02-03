@@ -123,7 +123,7 @@ layer_state_t layer_state_set_user(layer_state_t layer) {
       break;
     default:
       // Reset back to the current profile
-      annepro2LedResetForegroundColor();
+      if (layer != _BASE_LAYER) annepro2LedResetForegroundColor();
       break;
   }
   return layer;
